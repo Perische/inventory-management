@@ -158,7 +158,7 @@ async function loadInventory() {
 
 
                         <td class="price">
-                            $${Number(item.price).toFixed(2)}
+                            KSh ${Number(item.price).toFixed(2)}
                         </td>
 
 
