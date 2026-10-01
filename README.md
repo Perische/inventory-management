@@ -66,4 +66,4 @@ inventory-management/
 │   └── app.js
 │
 ├── README.md
-└── venv/
+└── requiremts.txt
