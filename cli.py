@@ -66,7 +66,7 @@ def view_inventory():
         print(f"Product: {item['product_name']}")
         print(f"Brand: {item.get('brands') or 'N/A'}")
         print(f"Barcode: {item.get('barcode') or 'N/A'}")
-        print(f"Price: ${item['price']:.2f}")
+        print(f"Price: KSh {item['price']:.2f}")
         print(f"Stock: {item['stock']}")
         print(
             f"Ingredients: "
@@ -167,7 +167,7 @@ def update_inventory_item():
         return
 
     print(f"\nProduct: {item['product_name']}")
-    print(f"Current price: ${item['price']:.2f}")
+    print(f"Current price: KSh {item['price']:.2f}")
     print(f"Current stock: {item['stock']}")
 
     price = input(
@@ -249,7 +249,7 @@ def delete_inventory_item():
         return
 
     print(f"\nProduct: {item['product_name']}")
-    print(f"Price: ${item['price']:.2f}")
+    print(f"Price: KSh {item['price']:.2f}")
     print(f"Stock: {item['stock']}")
 
     confirmation = input(
